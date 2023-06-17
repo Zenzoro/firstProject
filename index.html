@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <script src="/index.js" defer ></script>
+        <link rel="stylesheet" href="/style.css">
+        <title>My first Project</title>
+</head>
+<body>
+   <div class ="wrapper">
+   <div class ="container">
+     <div class ="subcontainer">
+       <div class ="user-amount-container">
+         <h3>Seaweed Tied Calculation</h3>
+          <p class ="hide error" id = "name-title-error">Value cannot be empty</p>
+        <input type="text" class ="name-title" id = 
+        "name-title" placeholder="Enter the name">
+        <input type ="number" class ="user-amount" id ="user-amount" placeholder="Tied amount">
+         <button class ="submit" id ="compute">Compute</button>
+       </div>
+     </div>
+      <div class ="output-container flex-space">
+        <div>
+          <p>Cost</p>
+          <span id ="amount">0</span>
+          </div>
+        <div>
+          <p>Total Tied</p>
+          <span id ="bunch-amount">0</span>
+        </div>
+      </div>
+   </div>
+    <div class ="list">
+      <h3>List</h3>
+    <div class ="list-container" id ="list"></div>
+    </div>
+   </div>
+</body>
+</html>
